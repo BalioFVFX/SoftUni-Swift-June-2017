@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B90DF3F41F34A87500D017A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90DF3F31F34A87500D017A7 /* AppDelegate.swift */; };
+		B90DF3F91F34A87500D017A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90DF3F71F34A87500D017A7 /* Main.storyboard */; };
+		B90DF3FB1F34A87500D017A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B90DF3FA1F34A87500D017A7 /* Assets.xcassets */; };
+		B90DF3FE1F34A87500D017A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90DF3FC1F34A87500D017A7 /* LaunchScreen.storyboard */; };
+		B90DF4061F34A97B00D017A7 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90DF4051F34A97B00D017A7 /* MyTableViewController.swift */; };
+		B90DF4081F34C11C00D017A7 /* FoodsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90DF4071F34C11C00D017A7 /* FoodsData.swift */; };
+		B90DF40A1F34DC0F00D017A7 /* FoodDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90DF4091F34DC0F00D017A7 /* FoodDetailsViewController.swift */; };
+		B90DF4161F35D6EC00D017A7 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90DF4151F35D6EC00D017A7 /* FoodTableViewCell.swift */; };
+		B98A5ABE1F389C0C0036759C /* Banica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B98A5AB91F389C0C0036759C /* Banica.jpg */; };
+		B98A5ABF1F389C0C0036759C /* GubiSPastet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B98A5ABA1F389C0C0036759C /* GubiSPastet.jpg */; };
+		B98A5AC01F389C0C0036759C /* MiniPizzasPeperoni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B98A5ABB1F389C0C0036759C /* MiniPizzasPeperoni.jpg */; };
+		B98A5AC11F389C0C0036759C /* MufiniSChereshi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B98A5ABC1F389C0C0036759C /* MufiniSChereshi.jpeg */; };
+		B98A5AC21F389C0C0036759C /* Musaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B98A5ABD1F389C0C0036759C /* Musaka.jpg */; };
+		B9D0E1071F38A40E00124C04 /* PizzaWithMelon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9D0E1051F38A40E00124C04 /* PizzaWithMelon.jpg */; };
+		B9D0E1081F38A40E00124C04 /* PatladjaneniKulichki.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B9D0E1061F38A40E00124C04 /* PatladjaneniKulichki.jpeg */; };
+		B9D0E10A1F38A6E900124C04 /* KremSMaskarponeIMalini.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B9D0E1091F38A6E900124C04 /* KremSMaskarponeIMalini.jpeg */; };
+		B9D0E10C1F38A85600124C04 /* PostniBonboniSFurmi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B9D0E10B1F38A85600124C04 /* PostniBonboniSFurmi.jpeg */; };
+		B9D0E10E1F38A94200124C04 /* SandvichOtTikvichki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9D0E10D1F38A94200124C04 /* SandvichOtTikvichki.jpg */; };
+		B9D0E1101F38AA5D00124C04 /* SandvichSAvokadoIKozeSirene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9D0E10F1F38AA5D00124C04 /* SandvichSAvokadoIKozeSirene.jpg */; };
+		B9D0E1121F38ABEE00124C04 /* ChiizkeikTorta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9D0E1111F38ABEE00124C04 /* ChiizkeikTorta.jpg */; };
+		B9D0E1141F38AE4E00124C04 /* PastaSRibaTonMasliniICheriDomati.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B9D0E1131F38AE4E00124C04 /* PastaSRibaTonMasliniICheriDomati.jpeg */; };
+		B9D0E1161F38AEA200124C04 /* DobrudjanskaSalata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9D0E1151F38AEA200124C04 /* DobrudjanskaSalata.jpg */; };
+		B9D0E1181F38AF6500124C04 /* SladkishSKremSireneISiniSlivi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B9D0E1171F38AF6500124C04 /* SladkishSKremSireneISiniSlivi.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B90DF3F01F34A87500D017A7 /* Lecture 7 Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecture 7 Homework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90DF3F31F34A87500D017A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B90DF3F81F34A87500D017A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B90DF3FA1F34A87500D017A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B90DF3FD1F34A87500D017A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B90DF3FF1F34A87500D017A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90DF4051F34A97B00D017A7 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTableViewController.swift; path = ../MyTableViewController.swift; sourceTree = "<group>"; };
+		B90DF4071F34C11C00D017A7 /* FoodsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodsData.swift; sourceTree = "<group>"; };
+		B90DF4091F34DC0F00D017A7 /* FoodDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDetailsViewController.swift; sourceTree = "<group>"; };
+		B90DF4151F35D6EC00D017A7 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		B98A5AB91F389C0C0036759C /* Banica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Banica.jpg; sourceTree = "<group>"; };
+		B98A5ABA1F389C0C0036759C /* GubiSPastet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GubiSPastet.jpg; sourceTree = "<group>"; };
+		B98A5ABB1F389C0C0036759C /* MiniPizzasPeperoni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MiniPizzasPeperoni.jpg; sourceTree = "<group>"; };
+		B98A5ABC1F389C0C0036759C /* MufiniSChereshi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MufiniSChereshi.jpeg; sourceTree = "<group>"; };
+		B98A5ABD1F389C0C0036759C /* Musaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Musaka.jpg; sourceTree = "<group>"; };
+		B9D0E1051F38A40E00124C04 /* PizzaWithMelon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PizzaWithMelon.jpg; sourceTree = "<group>"; };
+		B9D0E1061F38A40E00124C04 /* PatladjaneniKulichki.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PatladjaneniKulichki.jpeg; sourceTree = "<group>"; };
+		B9D0E1091F38A6E900124C04 /* KremSMaskarponeIMalini.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KremSMaskarponeIMalini.jpeg; sourceTree = "<group>"; };
+		B9D0E10B1F38A85600124C04 /* PostniBonboniSFurmi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PostniBonboniSFurmi.jpeg; sourceTree = "<group>"; };
+		B9D0E10D1F38A94200124C04 /* SandvichOtTikvichki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SandvichOtTikvichki.jpg; sourceTree = "<group>"; };
+		B9D0E10F1F38AA5D00124C04 /* SandvichSAvokadoIKozeSirene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SandvichSAvokadoIKozeSirene.jpg; sourceTree = "<group>"; };
+		B9D0E1111F38ABEE00124C04 /* ChiizkeikTorta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChiizkeikTorta.jpg; sourceTree = "<group>"; };
+		B9D0E1131F38AE4E00124C04 /* PastaSRibaTonMasliniICheriDomati.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PastaSRibaTonMasliniICheriDomati.jpeg; sourceTree = "<group>"; };
+		B9D0E1151F38AEA200124C04 /* DobrudjanskaSalata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DobrudjanskaSalata.jpg; sourceTree = "<group>"; };
+		B9D0E1171F38AF6500124C04 /* SladkishSKremSireneISiniSlivi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SladkishSKremSireneISiniSlivi.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B90DF3ED1F34A87500D017A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B90DF3E71F34A87500D017A7 = {
+			isa = PBXGroup;
+			children = (
+				B90DF3F21F34A87500D017A7 /* Lecture 7 Homework */,
+				B90DF3F11F34A87500D017A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B90DF3F11F34A87500D017A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B90DF3F01F34A87500D017A7 /* Lecture 7 Homework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B90DF3F21F34A87500D017A7 /* Lecture 7 Homework */ = {
+			isa = PBXGroup;
+			children = (
+				B90DF3F31F34A87500D017A7 /* AppDelegate.swift */,
+				B90DF3F71F34A87500D017A7 /* Main.storyboard */,
+				B90DF4151F35D6EC00D017A7 /* FoodTableViewCell.swift */,
+				B90DF4091F34DC0F00D017A7 /* FoodDetailsViewController.swift */,
+				B90DF4051F34A97B00D017A7 /* MyTableViewController.swift */,
+				B90DF4071F34C11C00D017A7 /* FoodsData.swift */,
+				B9D0E10B1F38A85600124C04 /* PostniBonboniSFurmi.jpeg */,
+				B98A5AB91F389C0C0036759C /* Banica.jpg */,
+				B98A5ABA1F389C0C0036759C /* GubiSPastet.jpg */,
+				B98A5ABB1F389C0C0036759C /* MiniPizzasPeperoni.jpg */,
+				B9D0E10D1F38A94200124C04 /* SandvichOtTikvichki.jpg */,
+				B98A5ABC1F389C0C0036759C /* MufiniSChereshi.jpeg */,
+				B98A5ABD1F389C0C0036759C /* Musaka.jpg */,
+				B9D0E1051F38A40E00124C04 /* PizzaWithMelon.jpg */,
+				B9D0E1061F38A40E00124C04 /* PatladjaneniKulichki.jpeg */,
+				B9D0E1171F38AF6500124C04 /* SladkishSKremSireneISiniSlivi.jpeg */,
+				B9D0E1091F38A6E900124C04 /* KremSMaskarponeIMalini.jpeg */,
+				B9D0E1111F38ABEE00124C04 /* ChiizkeikTorta.jpg */,
+				B9D0E1131F38AE4E00124C04 /* PastaSRibaTonMasliniICheriDomati.jpeg */,
+				B9D0E1151F38AEA200124C04 /* DobrudjanskaSalata.jpg */,
+				B9D0E10F1F38AA5D00124C04 /* SandvichSAvokadoIKozeSirene.jpg */,
+				B90DF3FA1F34A87500D017A7 /* Assets.xcassets */,
+				B90DF3FC1F34A87500D017A7 /* LaunchScreen.storyboard */,
+				B90DF3FF1F34A87500D017A7 /* Info.plist */,
+			);
+			path = "Lecture 7 Homework";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B90DF3EF1F34A87500D017A7 /* Lecture 7 Homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90DF4021F34A87500D017A7 /* Build configuration list for PBXNativeTarget "Lecture 7 Homework" */;
+			buildPhases = (
+				B90DF3EC1F34A87500D017A7 /* Sources */,
+				B90DF3ED1F34A87500D017A7 /* Frameworks */,
+				B90DF3EE1F34A87500D017A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lecture 7 Homework";
+			productName = "Lecture 7 Homework";
+			productReference = B90DF3F01F34A87500D017A7 /* Lecture 7 Homework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B90DF3E81F34A87500D017A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = None;
+				TargetAttributes = {
+					B90DF3EF1F34A87500D017A7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B90DF3EB1F34A87500D017A7 /* Build configuration list for PBXProject "Lecture 7 Homework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B90DF3E71F34A87500D017A7;
+			productRefGroup = B90DF3F11F34A87500D017A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B90DF3EF1F34A87500D017A7 /* Lecture 7 Homework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B90DF3EE1F34A87500D017A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9D0E10A1F38A6E900124C04 /* KremSMaskarponeIMalini.jpeg in Resources */,
+				B90DF3FE1F34A87500D017A7 /* LaunchScreen.storyboard in Resources */,
+				B98A5ABE1F389C0C0036759C /* Banica.jpg in Resources */,
+				B9D0E1141F38AE4E00124C04 /* PastaSRibaTonMasliniICheriDomati.jpeg in Resources */,
+				B98A5AC21F389C0C0036759C /* Musaka.jpg in Resources */,
+				B9D0E1161F38AEA200124C04 /* DobrudjanskaSalata.jpg in Resources */,
+				B9D0E1181F38AF6500124C04 /* SladkishSKremSireneISiniSlivi.jpeg in Resources */,
+				B9D0E10E1F38A94200124C04 /* SandvichOtTikvichki.jpg in Resources */,
+				B9D0E1071F38A40E00124C04 /* PizzaWithMelon.jpg in Resources */,
+				B98A5AC01F389C0C0036759C /* MiniPizzasPeperoni.jpg in Resources */,
+				B9D0E10C1F38A85600124C04 /* PostniBonboniSFurmi.jpeg in Resources */,
+				B90DF3FB1F34A87500D017A7 /* Assets.xcassets in Resources */,
+				B9D0E1081F38A40E00124C04 /* PatladjaneniKulichki.jpeg in Resources */,
+				B9D0E1101F38AA5D00124C04 /* SandvichSAvokadoIKozeSirene.jpg in Resources */,
+				B90DF3F91F34A87500D017A7 /* Main.storyboard in Resources */,
+				B98A5AC11F389C0C0036759C /* MufiniSChereshi.jpeg in Resources */,
+				B9D0E1121F38ABEE00124C04 /* ChiizkeikTorta.jpg in Resources */,
+				B98A5ABF1F389C0C0036759C /* GubiSPastet.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B90DF3EC1F34A87500D017A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90DF3F41F34A87500D017A7 /* AppDelegate.swift in Sources */,
+				B90DF4061F34A97B00D017A7 /* MyTableViewController.swift in Sources */,
+				B90DF4161F35D6EC00D017A7 /* FoodTableViewCell.swift in Sources */,
+				B90DF4081F34C11C00D017A7 /* FoodsData.swift in Sources */,
+				B90DF40A1F34DC0F00D017A7 /* FoodDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B90DF3F71F34A87500D017A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90DF3F81F34A87500D017A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B90DF3FC1F34A87500D017A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B90DF3FD1F34A87500D017A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B90DF4001F34A87500D017A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B90DF4011F34A87500D017A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B90DF4031F34A87500D017A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lecture 7 Homework/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Lecture-7-Homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B90DF4041F34A87500D017A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lecture 7 Homework/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Lecture-7-Homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B90DF3EB1F34A87500D017A7 /* Build configuration list for PBXProject "Lecture 7 Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90DF4001F34A87500D017A7 /* Debug */,
+				B90DF4011F34A87500D017A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90DF4021F34A87500D017A7 /* Build configuration list for PBXNativeTarget "Lecture 7 Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B90DF4031F34A87500D017A7 /* Debug */,
+				B90DF4041F34A87500D017A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B90DF3E81F34A87500D017A7 /* Project object */;
+}
