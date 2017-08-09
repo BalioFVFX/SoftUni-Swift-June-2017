@@ -19,6 +19,7 @@ class FoodTableViewCell: UITableViewCell{
     @IBOutlet weak var DishDurationCellLabel: UILabel!
     @IBOutlet weak var favoriteButton: UIButton!
     
+    var currentCell: NSIndexPath? //Tracking the number of section
     
     weak var delegate: FoodTableViewCellDelegate?
     
