@@ -12,16 +12,8 @@ class MyTableViewController: UITableViewController {
     var numberOfSection: Int = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-//        for favorite in FoodsData.foods {
-//            if(favorite[.favorite] == "yes"){
-//                FoodsData.sortedFoods.append(favorite)
-//                
-//            }
-//            
-//       
-//            
-       
-//        }
+
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -77,9 +69,8 @@ class MyTableViewController: UITableViewController {
             cell.DishNameCellLabel.text = FoodsData.sortedFoods[indexPath.row][.name]
             cell.DishDurationCellLabel?.text = FoodsData.sortedFoods[indexPath.row][.duration]
             cell.DishImageCell?.image = UIImage(named: FoodsData.sortedFoods[indexPath.row][.image] ?? "")
-            cell.favoriteButton.isEnabled = false
-          
             
+            //cell.favoriteButton.isHidden = true
         }
        
         if(indexPath.section == 1){
@@ -87,10 +78,10 @@ class MyTableViewController: UITableViewController {
         cell.DishNameCellLabel.text = FoodsData.foods[indexPath.row][.name]
         cell.DishDurationCellLabel?.text = FoodsData.foods[indexPath.row][.duration]
         cell.DishImageCell?.image = UIImage(named: FoodsData.foods[indexPath.row][.image] ?? "")
+      
+        }
         cell.delegate = self
         cell.favoriteButton.tag = indexPath.row
-        }
-       
         return cell
     }
     
@@ -136,14 +127,16 @@ class MyTableViewController: UITableViewController {
 }
 
 extension MyTableViewController: FoodTableViewCellDelegate{
+    
     func didPressFavoriteButton(cell: FoodTableViewCell, button: UIButton){
-            if(FoodsData.foods[button.tag][.favorite] == "no"){
-            FoodsData.foods[button.tag][.favorite] = "yes"
-            FoodsData.sortedFoods.append(FoodsData.foods[button.tag])
+            if(FoodsData.foods[cell.favoriteButton.tag][.favorite] == "no"){
+            FoodsData.foods[cell.favoriteButton.tag][.favorite] = "yes"
+            FoodsData.sortedFoods.append(FoodsData.foods[cell.favoriteButton.tag])
+                
             
-          tableView.reloadData()
+                
         }
-        
+          tableView.reloadData()
       
 
     }
