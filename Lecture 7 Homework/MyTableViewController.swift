@@ -70,7 +70,7 @@ class MyTableViewController: UITableViewController {
             cell.DishDurationCellLabel?.text = FoodsData.sortedFoods[indexPath.row][.duration]
             cell.DishImageCell?.image = UIImage(named: FoodsData.sortedFoods[indexPath.row][.image] ?? "")
             
-            //cell.favoriteButton.isHidden = true
+            cell.favoriteButton.isHidden = true
         }
        
         if(indexPath.section == 1){
@@ -78,10 +78,14 @@ class MyTableViewController: UITableViewController {
         cell.DishNameCellLabel.text = FoodsData.foods[indexPath.row][.name]
         cell.DishDurationCellLabel?.text = FoodsData.foods[indexPath.row][.duration]
         cell.DishImageCell?.image = UIImage(named: FoodsData.foods[indexPath.row][.image] ?? "")
+            cell.favoriteButton.isHidden = false
+          
       
         }
+        
         cell.delegate = self
         cell.favoriteButton.tag = indexPath.row
+       
         return cell
     }
     
